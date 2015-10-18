@@ -21,10 +21,18 @@ public class CommonHashMap {
         map2.put("Tbilisoba", "mwvadi");
         map2.put("Aba", "He");
 
-        String st;
+        System.out.println(commonKeyValuePairs(map1, map2));
 
 
     }
-    public int commonKeyValuePairs(HashMap<String, String> map1, HashMap<String, String> map2){}
+    public static int commonKeyValuePairs(HashMap<String, String> map1, HashMap<String, String> map2){
+        int i = 0:
+        for(Map.Entry<String, String> entryMapA:map1.entrySet())
+        {
+            if(map2.containsKey(entryMapA.getKey()) i++;
+        }
+        return i;
+    }
+
 
 }
