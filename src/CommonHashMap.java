@@ -21,11 +21,11 @@ public class CommonHashMap {
         map2.put("Tbilisoba", "mwvadi");
         map2.put("Aba", "He");
 
-        System.out.println(commonKeyValuePairs(map1, map2));
+       System.out.println(commonKeyValuePairs(map1, map2));
 
 
     }
-    public static int commonKeyValuePairs(HashMap<String, String> map1, HashMap<String, String> map2){
+    public static int commonKeyValuePairs(Map<String, String> map1, Map<String, String> map2){
         int i = 0;
         for(Map.Entry<String, String> entryMapA:map1.entrySet())
         {
