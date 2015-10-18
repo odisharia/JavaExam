@@ -26,10 +26,11 @@ public class CommonHashMap {
 
     }
     public static int commonKeyValuePairs(HashMap<String, String> map1, HashMap<String, String> map2){
-        int i = 0:
+        int i = 0;
         for(Map.Entry<String, String> entryMapA:map1.entrySet())
         {
-            if(map2.containsKey(entryMapA.getKey()) i++;
+            if(map2.containsKey(entryMapA.getKey())){
+            i++;}
         }
         return i;
     }
